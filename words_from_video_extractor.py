@@ -2,11 +2,8 @@ import subprocess
 import cv2
 import os
 
-# Path to the input video file
-input_video = "Flag.mp4"
-
-# Path to the output directory to save frames
-output_directory = "frames2/"
+input_video = "flag.mp4"
+output_directory = "frames/"
 output_directory_text = "frames_with_text/"
 
 # Create the output directories if they don't exist
